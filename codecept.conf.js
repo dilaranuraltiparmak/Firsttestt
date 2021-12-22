@@ -1,7 +1,5 @@
 const { setHeadlessWhen } = require('@codeceptjs/configure');
-
 setHeadlessWhen(process.env.HEADLESS);
-
 exports.config = {
   tests: 'POC_test/*_test.js',
   output: './output',
